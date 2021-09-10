@@ -10,7 +10,8 @@ import {
     Image2,
     Image3,
     Image4,
-    Image5
+    Image5,
+    Image6
 } from '../components/fitmk'
 
 const About = () => {
@@ -97,7 +98,13 @@ const About = () => {
             </div>
             <div className="about-fitmk-slide">
                 <Image6 />
-                <p className="mask-this">And why.</p>
+                <p
+                    className="mask-this"
+                    css={css`
+                        top: 70%;
+                    `}
+                >
+                    And why.</p>
             </div>
             <div
                 className="about-fitmk-slide"

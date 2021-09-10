@@ -89,6 +89,7 @@ const Photos = () => {
                     <li>Spooky girls in mist by <a href="https://unsplash.com/@kmitchhodge" target="_blank" rel="nofollow noopener noreferrer">K. Mitch Hodge</a></li>
                     <li>Hanging from a cliff by <a href="https://unsplash.com/@dallehj" target="_blank" rel="nofollow noopener noreferrer">Daniel Jensen</a></li>
                     <li>Haunted house by <a href="https://unsplash.com/@janjakubnanista" target="_blank" rel="nofollow noopener noreferrer">Ján Jakub Naništa</a></li>
+                    <li>Looking through a window by <a href="https://unsplash.com/@spce" target="_blank" rel="nofollow noopener noreferrer">Mario Azzi</a></li>
                     <li>Silhouette by <a href="https://unsplash.com/@stefanopollio" target="_blank" rel="nofollow noopener noreferrer">Stefano Pollio</a></li>
                 </ul>
                 <p
