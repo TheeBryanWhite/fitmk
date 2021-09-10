@@ -62,6 +62,7 @@ const About = () => {
                     font-size: 15vw;
                     padding: 0 10%;
                     text-align: center;
+                    text-shadow: -2px -2px 4px ${theme.colors.black};
 
                     @media all and (min-width: ${theme.breakpoint.tablet}) {
                         font-size: 12vw;
