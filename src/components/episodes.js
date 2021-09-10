@@ -17,6 +17,7 @@ const Episodes = () => (
             position: relative;
             scroll-snap-align: start;
         `}
+        id="episodes"
     >
         <div
             css={css`

@@ -1,10 +1,13 @@
 const theme = {
     breakpoint: {
+        mobile: '400px',
+        mobileLg: '600px',
         tablet: '768px',
         desktop: '1024px'
     },
     colors: {
         black: 'rgba(0, 0, 0, 1)',
+        black50: 'rgba(0, 0, 0, 0.5)',
         red: 'rgba(157, 55, 55, 1)',
         white: 'rgba(255, 255, 255, 1)'
     },

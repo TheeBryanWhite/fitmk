@@ -8,6 +8,7 @@ import {
 import emotionReset from 'emotion-reset'
 import * as React from "preact"
 import theme from '../theme'
+import Menu from './menu'
 
 const Layout = ({ children }) => {
   return (
@@ -45,16 +46,30 @@ const Layout = ({ children }) => {
                         color: ${theme.colors.red};
                     }
                 }
+
+                .screen-reader-text {
+                    border: 0;
+                    clip: rect(1px, 1px, 1px, 1px);
+                    clip-path: inset(50%);
+                    height: 1px;
+                    margin: -1px;
+                    overflow: hidden;
+                    padding: 0;
+                    position: absolute;
+                    width: 1px;
+                    word-wrap: normal !important;
+                }
             `}
         />
         <main
-              css={css`
+            css={css`
                 height: 100vh;
                 overflow-y: scroll;
                 scroll-snap-type: y mandatory;
             `}
-              id="main"
+            id="main"
         >
+            <Menu />
             {children}
         </main>
     </>

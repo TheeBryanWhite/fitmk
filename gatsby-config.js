@@ -1,13 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Fear is the Mind Killer`,
-    description: `A podcast about fear and the things that frighten us`,
-    author: `Bryan White`,
-    siteUrl: `https://fearisthemindkiller.show`
+        title: `Fear is the Mind Killer`,
+        description: `A podcast about fear and the things that frighten us`,
+        author: `Bryan White`,
+        siteUrl: `https://fearisthemindkiller.show`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-image`,
+      `gatsby-plugin-image`,
+      'gatsby-plugin-svgr',
     {
       resolve: `gatsby-source-filesystem`,
       options: {

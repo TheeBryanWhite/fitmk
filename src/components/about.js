@@ -99,13 +99,7 @@ const About = () => {
             </div>
             <div className="about-fitmk-slide">
                 <Image6 />
-                <p
-                    className="mask-this"
-                    css={css`
-                        top: 70%;
-                    `}
-                >
-                    And why.</p>
+                <p className="mask-this">And why.</p>
             </div>
             <div
                 className="about-fitmk-slide"
