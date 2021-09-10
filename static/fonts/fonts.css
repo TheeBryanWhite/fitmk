@@ -1,0 +1,41 @@
+
+@font-face {
+    font-family: "You Murderer";
+    src:url("./youmurderer/youmurdererbb_reg.woff2") format("woff2"),
+        url("./youmurderer/youmurdererbb_reg.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Noto Serif";
+    src:url("./notoserif/NotoSerif-Bold.woff2") format("woff2"),
+        url("./notoserif/NotoSerif-Bold.woff") format("woff");
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family:"Noto Serif";
+    src:url("./notoserif/NotoSerif-BoldItalic.woff2") format("woff2"),
+        url("./notoserif/NotoSerif-BoldItalic.woff") format("woff");
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Noto Serif";
+    src:url("./notoserif/NotoSerif-Italic.woff2") format("woff2"),
+        url("./notoserif/NotoSerif-Italic.woff") format("woff");
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Noto Serif";
+    src:url("./notoserif/NotoSerif-Regular.woff2") format("woff2"),
+        url("./notoserif/NotoSerif-Regular.woff") format("woff");
+    font-style: normal;
+    font-weight: 400;
+}
+        

@@ -1,10 +1,3 @@
-/**
- * Layout component that queries for data
- * with Gatsby's useStaticQuery component
- *
- * See: https://www.gatsbyjs.com/docs/use-static-query/
- */
-
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { 
@@ -12,80 +5,60 @@ import {
   Global,
   jsx
 } from '@emotion/react'
+import emotionReset from 'emotion-reset'
 import * as React from "preact"
-import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
-
-import Header from "./header"
-import './layout.css'
+import theme from '../theme'
 
 const Layout = ({ children }) => {
-  const data = useStaticQuery(graphql`
-    query SiteTitleQuery {
-      site {
-        siteMetadata {
-          title
-        }
-      }
-    }
-  `)
-
   return (
     <>
-      <Global
-        styles={css`
+        <Global
+            styles={css`
+                ${emotionReset}
 
-          header {
-            left: 50%;
-            position: fixed;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            z-index: 1;
-          }
+                *,
+                *:before,
+                *:after {
+                    box-sizing: border-box;
+                }
 
-          main {
-            background-color: black;
-          }
+                html {
+                    background-color: ${theme.colors.black};
+                    color: #fff;
+                }
 
-          .gatsby-image-wrapper {
-            height: 100%;
-            left: 50%;
-            position: fixed;
-            top: 50%;
-            transform: translate(-50%, -50%);
-            width: 100%;
-          }
+                .gatsby-image-wrapper {
+                    height: 100vh;
+                    left: 50%;
+                    position: absolute;;
+                    top: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 100%;
+                }
 
-          h1 {
-            animation: flash 0.1s linear infinite;
-            color: white;
-            font-family: 'Press Start 2P', Helvetica, Arial, sans-serif;
-            font-size: 7vw;
-            text-align: center;
-            text-transform: lowercase;
-          }
+                a {
+                    color: ${theme.colors.white};
+                    transition: color 0.2s linear;
 
-          @keyframes flash {
-            0% {
-              opacity: 1;
-            }
-        
-            100% {
-              opacity: 0;
-            }
-          }
-        `}
-      />
-      <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div>
-        <main>{children}</main>
-      </div>
+                    &:hover,
+                    &:active {
+                        color: ${theme.colors.red};
+                    }
+                }
+            `}
+        />
+        <main
+              css={css`
+                height: 100vh;
+                overflow-y: scroll;
+                scroll-snap-type: y mandatory;
+            `}
+              id="main"
+        >
+            {children}
+        </main>
     </>
   )
-}
-
-Layout.propTypes = {
-  children: PropTypes.node.isRequired,
 }
 
 export default Layout

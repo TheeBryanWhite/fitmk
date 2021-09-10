@@ -36,6 +36,16 @@ module.exports = {
             }
           }`,
       }
+      },
+      `gatsby-plugin-preload-fonts`,
+      {
+        resolve: 'gatsby-plugin-web-font-loader',
+        options: {
+            custom: {
+                families: ['You Murderer', 'Noto'],
+                urls: ['/fonts/fonts.css'],
+            },
+        },
     },
     {
       resolve: 'gatsby-plugin-robots-txt',
