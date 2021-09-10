@@ -95,6 +95,10 @@ const About = () => {
                 <Image4 />
                 <p className="mask-this">A candid conversation seeking to understand what frightens us.</p>
             </div>
+            <div className="about-fitmk-slide">
+                <Image6 />
+                <p className="mask-this">And why.</p>
+            </div>
             <div
                 className="about-fitmk-slide"
                 css={css`
