@@ -68,7 +68,7 @@ const Episodes = () => (
                 >
                     Trailer
                 </h1>
-                <iframe src="https://open.spotify.com/embed/episode/78L5LeOWvJJNH43inTE5bx" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/78L5LeOWvJJNH43inTE5bx" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media" title="Fear is the Mind Killer trailer"></iframe>
             </div>
             {/* 
             <ul
