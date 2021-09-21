@@ -84,7 +84,7 @@ const Episodes = () => (
                 `}
             >
                 <h2>Episode 1: Sarah Elizabeth and Scopophobia</h2>
-                <iframe src="https://open.spotify.com/embed/episode/5puXg43g2y3lykstyNeAuK" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                <iframe src="https://open.spotify.com/embed/episode/5puXg43g2y3lykstyNeAuK" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media" title="Fear is the Mind Killer episode 1 with guest Sarah Elizabeth"></iframe>
             </div>
         </div>
     </section>
