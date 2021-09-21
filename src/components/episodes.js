@@ -16,6 +16,19 @@ const Episodes = () => (
             padding: 40px 0;
             position: relative;
             scroll-snap-align: start;
+
+            h2 {
+                background-color: ${theme.colors.black};
+                font-size: 24px;
+                line-height: 32px;
+                padding: 0 10px 20px;
+
+                @media all and (min-width: ${theme.breakpoint.tablet}) {
+                    padding: 0 10px;
+                    position: absolute;
+                    top: -14px;
+                }
+            }
         `}
         id="episodes"
     >
@@ -58,29 +71,21 @@ const Episodes = () => (
                     position: relative;
                 `}
             >
-                <h1
-                    css={css`
-                        background-color: ${theme.colors.black};
-                        font-size: 24px;
-                        padding: 0 10px;
-                        position: absolute;
-                        top: -14px;
-                    `}
-                >
-                    Trailer
-                </h1>
+                <h2>Trailer</h2>
                 <iframe src="https://open.spotify.com/embed/episode/78L5LeOWvJJNH43inTE5bx" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media" title="Fear is the Mind Killer trailer"></iframe>
             </div>
-            {/* 
-            <ul
+            <div
                 css={css`
-                    li {
-                        margin-top: 40px;
-                    }
+                    border: 1px solid ${theme.colors.white};
+                    border-radius: 5px;
+                    margin-top: 40px;
+                    padding: 20px;
+                    position: relative;
                 `}
             >
-                <li><iframe src="https://open.spotify.com/embed/episode/78L5LeOWvJJNH43inTE5bx" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe></li>
-            </ul> */}
+                <h2>Episode 1: Sarah Elizabeth and Scopophobia</h2>
+                <iframe src="https://open.spotify.com/embed/episode/5puXg43g2y3lykstyNeAuK" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+            </div>
         </div>
     </section>
 )
