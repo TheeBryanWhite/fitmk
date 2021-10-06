@@ -86,6 +86,18 @@ const Episodes = () => (
                 <h2>Episode 1: Sarah Elizabeth and Scopophobia</h2>
                 <iframe src="https://open.spotify.com/embed/episode/5puXg43g2y3lykstyNeAuK" width="100%" height="232" frameBorder="0" allowtransparency="true" allow="encrypted-media" title="Fear is the Mind Killer episode 1 with guest Sarah Elizabeth"></iframe>
             </div>
+            <div
+                css={css`
+                    border: 1px solid ${theme.colors.white};
+                    border-radius: 5px;
+                    margin-top: 40px;
+                    padding: 20px;
+                    position: relative;
+                `}
+            >
+                <h2>Episode 2: Peter Bebergal and the Power of Signs and Symbols</h2>
+                <iframe src="https://open.spotify.com/embed/episode/1jlu9f5adZtw3VBgqdog91" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="encrypted-media" title="Episode 2: Peter Bebergal and the Power of Signs and Symbols"></iframe>
+            </div>
         </div>
     </section>
 )
