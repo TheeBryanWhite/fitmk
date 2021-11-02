@@ -54,7 +54,6 @@ const About = () => {
             .about-fitmk-slide {
                 height: 100vh;
                 position: relative;
-                scroll-snap-align: start;
                 
                 h2,
                 p {

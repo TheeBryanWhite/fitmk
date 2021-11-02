@@ -15,7 +15,6 @@ const Episodes = () => (
             min-height: 100vh;
             padding: 40px 0;
             position: relative;
-            scroll-snap-align: start;
 
             h2 {
                 background-color: ${theme.colors.black};
@@ -97,6 +96,30 @@ const Episodes = () => (
             >
                 <h2>Episode 2: Peter Bebergal and the Power of Signs and Symbols</h2>
                 <iframe src="https://open.spotify.com/embed/episode/1jlu9f5adZtw3VBgqdog91" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="encrypted-media" title="Episode 2: Peter Bebergal and the Power of Signs and Symbols"></iframe>
+            </div>
+            <div
+                css={css`
+                    border: 1px solid ${theme.colors.white};
+                    border-radius: 5px;
+                    margin-top: 40px;
+                    padding: 20px;
+                    position: relative;
+                `}
+            >
+                <h2>Episode 3: Allen Greenfield and the uncanny</h2>
+                <iframe src="https://open.spotify.com/embed/episode/1jekL9Teqv4aXhYd7Tzp6N" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="encrypted-media" title="Episode 3: Allen Greenfield and the uncanny"></iframe>
+            </div>
+            <div
+                css={css`
+                    border: 1px solid ${theme.colors.white};
+                    border-radius: 5px;
+                    margin-top: 40px;
+                    padding: 20px;
+                    position: relative;
+                `}
+            >
+                <h2>Episode 4: Sean Dempsey on war, trauma, and burning houses</h2>
+                <iframe src="https://open.spotify.com/embed/episode/0wH1r0t1tSILpLeR3kjrxG" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="encrypted-media" title="Episode 4: Sean Dempsey on war, trauma, and burning houses"></iframe>
             </div>
         </div>
     </section>

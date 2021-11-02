@@ -24,7 +24,6 @@ const Hero = () => {
             css={css`
                 height: 100vh;
                 position: relative;
-                scroll-snap-align: start;
             `}
         >
             <Image1 />

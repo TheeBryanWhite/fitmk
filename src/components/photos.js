@@ -29,7 +29,6 @@ const Photos = () => {
             font-family: ${theme.fonts.noto};
             height: 100vh;
             position: relative;
-            scroll-snap-align: start;
         `}
         >
             <div
