@@ -121,6 +121,54 @@ const Episodes = () => (
                 <h2>Episode 4: Sean Dempsey on war, trauma, and burning houses</h2>
                 <iframe src="https://open.spotify.com/embed/episode/0wH1r0t1tSILpLeR3kjrxG" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="encrypted-media" title="Episode 4: Sean Dempsey on war, trauma, and burning houses"></iframe>
             </div>
+            <div
+                css={css`
+                    border: 1px solid ${theme.colors.white};
+                    border-radius: 5px;
+                    margin-top: 40px;
+                    padding: 20px;
+                    position: relative;
+                `}
+            >
+                <h2>Episode 5: Larry Clow on sleep walking and waking up in strange places</h2>
+                <iframe src="https://open.spotify.com/embed/episode/4JoQ6WeyULPlGVf0f8WFgb" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="encrypted-media" title="Episode 5: Larry Clow on sleep walking and waking up in strange places"></iframe>
+            </div>
+            <div
+                css={css`
+                    border: 1px solid ${theme.colors.white};
+                    border-radius: 5px;
+                    margin-top: 40px;
+                    padding: 20px;
+                    position: relative;
+                `}
+            >
+                <h2>Episode 6: AP Strange on the unbearable awfulness of boredom and living with high-strangeness</h2>
+                <iframe src="https://open.spotify.com/embed/episode/0L5m5aIeFVQnvjJLCHkbcU" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="encrypted-media" title="Episode 6: AP Strange on the unbearable awfulness of boredom and living with high-strangeness"></iframe>
+            </div>
+            <div
+                css={css`
+                    border: 1px solid ${theme.colors.white};
+                    border-radius: 5px;
+                    margin-top: 40px;
+                    padding: 20px;
+                    position: relative;
+                `}
+            >
+                <h2>Episode 7: Marco Visconti on mortality and the magnum opus</h2>
+                <iframe src="https://open.spotify.com/embed/episode/12eRfb9yCbOAo446LlSzqm" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="encrypted-media" title="Episode 7: Marco Visconti on mortality and the magnum opus"></iframe>
+            </div>
+            <div
+                css={css`
+                    border: 1px solid ${theme.colors.white};
+                    border-radius: 5px;
+                    margin-top: 40px;
+                    padding: 20px;
+                    position: relative;
+                `}
+            >
+                <h2>Episode 8: Liminal Earth on being haunted by religion, a loss of agency, and dying before your time</h2>
+                <iframe src="https://open.spotify.com/embed/episode/3eHw0ZTmZM8u7X0EdjwWm1" width="100%" height="232" frameBorder="0" allowfullscreen="" allow="encrypted-media" title="Episode 8: Liminal Earth on being haunted by religion, a loss of agency, and dying before your time"></iframe>
+            </div>
         </div>
     </section>
 )
